@@ -7,4 +7,9 @@ public class UnitTest1
     {
         Assert.True(true);
     }
+
+    public void FalseIsFalse()
+    {
+        Assert.False(!true);
+    }
 }
